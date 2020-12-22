@@ -1,8 +1,10 @@
-package com.rigby.pushit;
+package com.rigby.pushit.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.rigby.pushit.R;
 
 public class MainActivity extends AppCompatActivity {
 

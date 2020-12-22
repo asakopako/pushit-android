@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PushIt</string>
+    <string name="login">IDENTIFICARSE</string>
+    <string name="email">EMAIL</string>
+    <string name="name">NOMBRE (OPCIONAL)</string>
+    <string name="password">CONTRASEÑA</string>
+    <string name="repeatPassword">REPETIR CONTRASEÑA</string>
+    <string name="submit">ENVIAR</string>
+    <string name="register">REGISTRARSE</string>
+    <string name="back">ATRAS</string>
+    <string name="passwordError">Las contraseñas no coinciden</string>
+    <string name="registerOk">Regisro satisfactorio</string>
+    <string name="registerError">Valores inválidos introducidos o ya existe el email</string>
+    <string name="connectionError">Error al conectar con el servidor</string>
+</resources>
