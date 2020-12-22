@@ -13,4 +13,5 @@
     <string name="registerOk">Regisro satisfactorio</string>
     <string name="registerError">Valores inválidos introducidos o ya existe el email</string>
     <string name="connectionError">Error al conectar con el servidor</string>
+    <string name="loginError">Email o contraseña incorrectos</string>
 </resources>

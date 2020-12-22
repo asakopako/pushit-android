@@ -12,4 +12,5 @@
     <string name="registerOk">Successful registration</string>
     <string name="registerError">Invalid formatted values entered or email already exists</string>
     <string name="connectionError">Failed to connect to server</string>
+    <string name="loginError">Wrong email or password</string>
 </resources>

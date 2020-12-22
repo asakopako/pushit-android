@@ -9,6 +9,9 @@ import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.rigby.pushit.R;
+import com.rigby.pushit.model.request.LoginRequest;
+import com.rigby.pushit.service.UserService;
+import com.rigby.pushit.service.tool.CryptoTool;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -30,6 +33,10 @@ public class LoginActivity extends AppCompatActivity {
 
     private void configureViews() {
         submitButton.setOnClickListener(v -> {
+            LoginRequest loginRequest = new LoginRequest();
+            loginRequest.setEmail(emailEditText.getText().toString());
+            loginRequest.setPassword(CryptoTool.digest(passwordEditText.getText().toString()));
+            UserService.postLogin(LoginActivity.this, loginRequest);
         });
 
         registerButton.setOnClickListener(v -> {
